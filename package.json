@@ -6,7 +6,8 @@
     "node": "22"
   },
   "scripts": {
-    "dev": "node API/server.js"
+    "dev": "node API/server.js",
+    "prisma:generate": "prisma generate --no-engine"
   },
   "keywords": [],
   "author": "",
