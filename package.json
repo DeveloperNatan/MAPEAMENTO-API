@@ -1,0 +1,25 @@
+{
+  "name": "site-lanche",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "dev": "node API/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "prisma": "^6.2.1"
+  },
+  "prisma": {
+    "schema": "./API/prisma/schema.prisma"
+  }
+}
+
