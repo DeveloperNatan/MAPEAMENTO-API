@@ -15,6 +15,7 @@
   "dependencies": {
     "@prisma/client": "^6.2.1",
     "cors": "^2.8.5",
+    "env": "^0.0.2",
     "express": "^4.21.2",
     "prisma": "^6.2.1"
   },
@@ -22,4 +23,3 @@
     "schema": "./API/prisma/schema.prisma"
   }
 }
-

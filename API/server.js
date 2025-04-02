@@ -7,4 +7,4 @@ app.use(express.json());
 app.use("/", require("./routes/routes"));
 
 app.listen(9001);
-
+console.log("http://localhost:9001/api/relacao/");

@@ -1,19 +1,10 @@
-/*
-  Warnings:
-
-  - You are about to drop the `Computadores` table. If the table is not empty, all the data it contains will be lost.
-
-*/
--- DropTable
-DROP TABLE "Computadores";
-
 -- CreateTable
 CREATE TABLE "LocalizacaoPA" (
     "id" SERIAL NOT NULL,
     "filial" TEXT NOT NULL,
     "Andar" TEXT NOT NULL,
     "Espinha" TEXT NOT NULL,
-    "PA" INTEGER NOT NULL,
+    "PA" TEXT NOT NULL,
 
     CONSTRAINT "LocalizacaoPA_pkey" PRIMARY KEY ("id")
 );
